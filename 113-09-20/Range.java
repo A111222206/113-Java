@@ -1,3 +1,4 @@
+//public 類別名稱要和檔名一樣
 public class Range {
     public static void main(String[] args) {
         // byte、short、int、long 範圍

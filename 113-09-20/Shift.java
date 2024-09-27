@@ -1,11 +1,14 @@
-package cc.openhome;
-
 public class Shift {
     public static void main(String[] args) {
         int number = 1; 
-        System.out.printf( "2 ªº 0 ¦¸¤è: %d%n", number); 
-        System.out.printf( "2 ªº 1 ¦¸¤è: %d%n", number << 1); 
-        System.out.printf( "2 ªº 2 ¦¸¤è: %d%n", number << 2); 
-        System.out.printf( "2 ªº 3 ¦¸¤è: %d%n", number << 3); 
+        System.out.printf( "2 çš„ 0 æ¬¡æ–¹: %d%n", number); 
+        System.out.printf( "2 çš„ 1 æ¬¡æ–¹: %d%n", number << 1); 
+        System.out.printf( "2 çš„ 2 æ¬¡æ–¹: %d%n", number << 2); 
+        System.out.printf( "2 çš„ 3 æ¬¡æ–¹: %d%n", number << 3); 
     }
 }
+
+// 2 -> 00000010
+// 2 << 1 -> 00000100 =4
+//å¾€å·¦ä¸€å€‹ä½å…ƒç­‰æ–¼åŸæœ¬çš„æ•¸å­—X2
+//å¾€å·¦å¹¾å€‹ä½å…ƒå°±æ˜¯ä¹˜ä¸Š2çš„å¹¾æ¬¡æ–¹

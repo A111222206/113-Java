@@ -1,9 +1,7 @@
-package cc.openhome;
-
 public class Level {
     public static void main(String[] args) {
-        var score = 88;
-        var level = '\0'; 
+        int score = 88;
+        char level = '\0'; 
         
         if(score >= 90) {
             level = 'A';
@@ -18,8 +16,8 @@ public class Level {
             level = 'D';
         }        
         else {
-            level = 'E';
+            level = 'F';
         }
-        System.out.printf("±o¤Àµ¥¯Å¡G%c%n", level);
+        System.out.printf("å¾—åˆ†ç­‰ç´šG%c%n", level);
     }
 }
