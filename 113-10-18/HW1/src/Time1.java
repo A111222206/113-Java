@@ -12,7 +12,7 @@ public class Time1 {
             this.second = second;
         }
         else
-            System.out.println("請輸入24小時制的正確時間");
+            System.out.println("時間格式錯誤 請輸入24小時制的正確時間");
     }
 
     //方法: 加入get/set
