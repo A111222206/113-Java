@@ -3,7 +3,7 @@ import java.io.FileNotFoundException;
 import java.io.FileReader;
 
 public class CheckedException {
-    public void readFile(String filePath) {
+    public static void main(String[] args) {
         try {
             File file = new File("test.txt");
             FileReader fileReader = new FileReader(file);
